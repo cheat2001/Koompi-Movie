@@ -1,0 +1,29 @@
+.Container {
+    background-color: #0D0D0D;
+    width: 100%;
+    padding: 0 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.Container .TopTrending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.TopTrending h1 {
+    font-size: 20px;
+}
+
+.TopTrending a {
+    color: rgba(255, 255, 255, 0.438);
+    text-decoration: none;
+}
+
+.Container .Movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

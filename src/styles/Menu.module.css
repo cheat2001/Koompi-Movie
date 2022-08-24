@@ -1,0 +1,15 @@
+.Container {
+    width: 300px;
+    height: 100vh;
+    background-color: #171717;
+    position: absolute;
+    z-index: 100;
+    top: 70px;
+    left: -100%;
+    transition: 0.3s ease-in-out;
+}
+
+.Title {
+    color: white;
+    padding: 20px;
+}
